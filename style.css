@@ -11,7 +11,7 @@ body {
 
 /* HEADER */
 header {
-    background-color: #1f2937;
+    background-color: #421419;
     padding: 1em 13em;
 }
 
@@ -118,13 +118,6 @@ main h2 {
     gap: 0.5em;
 }
 
-.square {
-    border: 4px solid #3882F6;
-    border-radius: 20px;
-    width: 160px;
-    height: 160px;
-}
-
 /* QUOTE */
 .quote {
     display: flex;
@@ -183,3 +176,9 @@ footer {
     align-items: center;
     padding: 2em 0;
 }
+
+/* this is to remove the purple shade once the link is clicked */
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+   }
